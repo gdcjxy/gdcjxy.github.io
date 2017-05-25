@@ -1,2 +1,2 @@
 # Access-course
-数据库精品课程网
+Access数据库精品课程网
