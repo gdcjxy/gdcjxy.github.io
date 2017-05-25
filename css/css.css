@@ -1,9 +1,11 @@
-.top{height=125px;background: #e56c0a;}
+.top{height:125px;background: #e56c0a;}
 *{margin:0; padding:0; font-size:14px;}
 ul,li {list-style-type:none; text-transform:capitalize;}
 .clear {clear:both; display:inline;}
 a{color:#333;text-decoration:none}
-.menu{width:100%;}
+.public{width: 100%}
+.w960{width:960px;}
+.auto{margin: 0 auto}
 .nav{list-style:none; height:30px; border-bottom:5px solid #F60; margin-top:5px; padding-left:50px; display:block;}
 .mainlevel{float:left;}
 .mainlevel a{display:block; height:30px;text-align:center; line-height:30px; width:120px; background:url(../images/btnBg.png) 0 0 repeat-x; margin-left:1px;}
@@ -16,58 +18,58 @@ a{color:#333;text-decoration:none}
 .fr{ float:right;}
 .mt8{ margin-top:8px}
 .mR {MARGIN-RIGHT: 8px}
-.style_01_ht{ width:auto; height:36px; background:url(img/title_bg.jpg) -613px 0px no-repeat;}
-.style_02_ht{ width:auto; height:36px; background:url(img/title_bg.jpg) -30px 0px no-repeat;}
-.style_03_ht{ width:auto; height:36px; background:url(img/title_bg.jpg) 0px 0px no-repeat;}
-.style_04_ht{ width:auto; height:36px; background:url(img/title_bg1.jpg) 0px 0px no-repeat;}
-.style_01_nr{width: 100px;height: 36px;background: url(img/title_nt_1.jpg) 0px 4px no-repeat;text-align: center;line-height: 38px;font-size: 14px;font-weight: bold;color: #033F6D;margin-top: 0;margin-right: 0;margin-bottom: 0;margin-left: 8px;}
+.style_01_ht{ width:auto; height:36px;}
+.style_02_ht{ width:auto; height:36px;}
+.style_03_ht{ width:auto; height:36px;}
+.style_04_ht{ width:auto; height:36px;}
+.style_01_nr{width: 100px;height: 36px;text-align: center;line-height: 38px;font-size: 14px;font-weight: bold;color: #033F6D;margin-top: 0;margin-right: 0;margin-bottom: 0;margin-left: 8px;}
 .style_02_nr{ width:97px; height:36px; margin:0 0 0 18px;text-align:center; line-height:31px; font-size:14px; font-weight:bold; color:#033F6D;}
-.style_03_nr{ width:97px; height:36px; background:url(img/title_nt_2.jpg) no-repeat; margin:0 0 0 0;text-align:center; line-height:34px; font-size:14px; font-weight:bold; color:#033F6D;}
+.style_03_nr{ width:97px; height:36px; margin:0 0 0 0;text-align:center; line-height:34px; font-size:14px; font-weight:bold; color:#033F6D;}
 .nr_bk{ width: auto; height: auto; overflow:hidden;margin:8px 8px;}
 .nr_bk_02{ width: auto; height: auto; overflow:hidden;margin:4px 12px auto 12px;}
 .nr_bk_03{ width: auto; height: auto; overflow:hidden;margin:10px 12px 8px 12px;}
 .nr_bk_04{ width: auto; height: auto; overflow:hidden;margin:8px 12px 12px 12px;}
 .box1 UL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; margin:0px; list-style-type:none;}
-.box1 LI {CLEAR: both; LINE-HEIGHT: 26px;list-style-type:none; padding:0px 0 0 14px; background:url(img/ico_dot.gif) left no-repeat;}
+.box1 LI {CLEAR: both; LINE-HEIGHT: 26px;list-style-type:none; padding:0px 0 0 14px;}
 .box1 A {FONT-SIZE: 12px}
 .box2 UL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; margin:0px; list-style-type:none;}
-.box2 LI {CLEAR: both; LINE-HEIGHT: 27px;list-style-type:none; padding:0px 0 0 14px; background:url(img/ico_dot.gif) left no-repeat; height:27px; overflow: hidden; width:auto;}
+.box2 LI {CLEAR: both; LINE-HEIGHT: 27px;list-style-type:none; padding:0px 0 0 14px; height:27px; overflow: hidden; width:auto;}
 .box2 A {FONT-SIZE: 14px}
 .box3 UL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; margin:0px; list-style-type:none;}
-.box3 LI {CLEAR: both; LINE-HEIGHT: 24px;list-style-type:none; padding:0px 0 0 14px; background:url(img/ico_dot.gif) left no-repeat;}
+.box3 LI {CLEAR: both; LINE-HEIGHT: 24px;list-style-type:none; padding:0px 0 0 14px; }
 .box3 A {FONT-SIZE: 12px}
 .div_body1{ margin:8px auto; overflow:hidden;display:flex;}
 .div_body1 .left{text-align:left;  width:300px; margin:0 8px 0 0;overflow:hidden; height:auto;}
 .div_body1 .left .bd1{ height:155px; overflow:hidden; width:298px;}
 .div_body1 .left .bd2{ height:150px; overflow:hidden; margin:8px 0 0 0;}
 .div_body1 .left .bd3{ height:315px; overflow:hidden; margin:0 0 0 0;}	
-.div_body1 .mid{width: 412px;height: 315px;overflow: hidden;background: url(img/top_news.gif) repeat-x top;margin-top: 0;margin-right: 0px;margin-bottom: 0;margin-left: 0;}
+.div_body1 .mid{width: 412px;height: 315px;overflow: hidden;margin-top: 0;margin-right: 0px;margin-bottom: 0;margin-left: 0;}
 .div_body1 .mid .bd1{ height:105px; overflow:hidden; border-bottom: #CDCDCD 1px dotted; padding:0 0 15px 0;}
 .div_body1 .mid .bd1 UL {PADDING:0px; margin:0px; list-style-type:none;}
 .div_body1 .mid .bd1 {list-style-type:none; padding:0px 0 0 0px; }
 .div_body1 .mid .bd11 {height:20px; overflow:hidden;padding:0px 0 0 0px;font-size: 16px;margin: 4px;text-align: center;font-weight: bold;}
 .div_body1 .mid .hot_news{ font-family:"微软雅黑",Verdana, Arial, Helvetica, sans-serif; color:#04476E; font-size:22px; text-align:center;}
-.div_body1 .mid .hot_news_txt{ Verdana, Arial, Helvetica, sans-serif; color: #999999; font-size:12px; text-align: left; line-height:21px; margin:3px 0 0 0; text-indent:23px;}					
+.div_body1 .mid .hot_news_txt{ Verdana: Arial, Helvetica, sans-serif; color: #999999; font-size:12px; text-align: left; line-height:21px; margin:3px 0 0 0; text-indent:23px;}
 .div_body1 .mid .bd2{text-align:left; height:270px;overflow:hidden;margin:0px 0 0 0;padding:0px;line-height:21px;text-indent:2em;}
 .div_body1 .mid .bd2 span{PADDING-RIGHT: 5px; FLOAT: right;COLOR: gray! important;}
 .div_body1 .right{ width:227px; height:314px; overflow: hidden; margin-left:10px;}
 .tslm{margin:auto auto 8px;text-align: center;}
-.location{width:960px; height:30px;margin:30px 0px 0 100px;text-align:left;}
-.coursedecs{text-align:left; width:82%; height:315px; overflow: hidden; margin:10px 0px 0 20px; background:#E0FFFF repeat-x top;}
-.coursefeature{text-align:left; width:82%; height:355px; overflow: hidden; margin:10px 0px 0 20px; background:#E0FFFF repeat-x top;}
-.teachersculture{text-align:left; width:82%; height:355px; overflow: hidden; margin:10px 0px 0 20px; background:#E0FFFF repeat-x top;}
+.location{width:960px; height:30px;margin-top:20px;text-align:left;}
+.coursedecs{text-align:left;  height:315px; overflow: hidden; margin-top:15px; background:#E0FFFF repeat-x top;}
+.coursefeature{text-align:left; height:355px; overflow: hidden; margin-top:10px; background:#E0FFFF repeat-x top;}
+.teachersculture{text-align:left; height:355px; overflow: hidden; margin-top:10px;  background:#E0FFFF repeat-x top;}
 .coursedecstitle{text-align:center;margin-top:15px;font-size: 21px;color:#0000CD;}
-.coursedecsCentent{margin:20px;font-size: 16px;font-weight: 450;line-height: 1.4;}
-.teachersStructure{text-align:left; width:82%; height:750px; overflow: hidden; margin:10px 0px 0 20px; background:#E0FFFF repeat-x top;}
-.teachersStructureCentent{margin:20px;font-size: 16px;font-weight: 450;line-height: 1.4;}
-.teachingAchievement{text-align:left; width:82%; height:380px; overflow: hidden; margin:10px 0px 0 20px; background:#E0FFFF repeat-x top;}
-.teachingAchievementCentent{margin:20px;font-size: 16px;font-weight: 450;line-height: 1.4;}
+.coursedecsCentent{margin-top:20px;font-size: 16px;font-weight: 400;line-height: 1.4;}
+.teachersStructure{text-align:left; height:750px; overflow: hidden; margin-top:10px;  background:#E0FFFF repeat-x top;}
+.teachersStructureCentent{font-size: 16px;font-weight: 400;line-height: 1.4;}
+.teachingAchievement{text-align:left; height:380px; overflow: hidden; margin-top:10px; background:#E0FFFF repeat-x top;}
+.teachingAchievementCentent{margin-top:20px;font-size: 16px;font-weight: 400;line-height: 1.4;}
+.teachingAchievementCentent p{text-indent: 2em;line-height: 1.7;}
 .teachingAchievementResources{width:300px;height:30px;display:block;padding-left:150px;margin-top:15px;}
 .teachingAchievementResources a{text-decoration:underline;}
 .teachingAchievementResources a img{height:50px;margin-left:110px;}
 .teatable{padding-left:40px;}
 .biankuang{ border:#A5CDF0 1px solid;}
-.downloadresources{margin:20px;font-size: 16px;font-weight: 450;line-height: 1.4;}
+.downloadresources{margin:20px;font-size: 16px;font-weight: 400;line-height: 1.4;}
 .downloadresources a{text-decoration:underline;}
 .footer{text-align:center;margin-top:10px;margin-bottom:10px;}
-.w960{width:960px;}
