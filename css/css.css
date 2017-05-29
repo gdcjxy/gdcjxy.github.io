@@ -72,4 +72,7 @@ a{color:#333;text-decoration:none}
 .biankuang{ border:#A5CDF0 1px solid;}
 .downloadresources{margin:20px;font-size: 16px;font-weight: 400;line-height: 1.4;}
 .downloadresources a{text-decoration:underline;}
-.footer{text-align:center;margin-top:10px;margin-bottom:10px;}
+.friend{height: 35px;}
+.friendlinks ul li a{float: left; margin-top:10px;margin-left: 20px;}
+.friendlinks ul li a:hover{text-decoration: underline;}
+.footer{text-align:center;margin-top:15px;margin-bottom:10px;}
